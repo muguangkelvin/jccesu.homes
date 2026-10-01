@@ -1,0 +1,28 @@
+<header>
+  <div class="header-container">
+    <a href="/" class="brand-logo">
+      ⚡ <span>jccesu</span> 机场测速实验室
+    </a>
+    <nav>
+      <ul>
+        <li><a href="/" {{ if .IsHome }}class="active"{{ end }}>首页</a></li>
+        <li><a href="/speed-test/" {{ if eq .Section "speed-test" }}class="active"{{ end }}>测速评测室</a></li>
+        <li><a href="/recommendations/" {{ if eq .Section "recommendations" }}class="active"{{ end }}>小白推荐榜</a></li>
+        <li><a href="/tutorials/" {{ if eq .Section "tutorials" }}class="active"{{ end }}>客户端教程</a></li>
+        <li><a href="/knowledge/" {{ if eq .Section "knowledge" }}class="active"{{ end }}>线路知识库</a></li>
+        <li><a href="/faq/" {{ if eq .Section "faq" }}class="active"{{ end }}>常见疑问答疑</a></li>
+        <li><a href="/all-airports/" {{ if eq .Section "all-airports" }}class="active"{{ end }}>全机场注册大全</a></li>
+      </ul>
+    </nav>
+    <div class="header-right">
+      <div class="search-box">
+        <span class="search-icon-btn">🔍</span>
+        <input type="text" id="search-input" class="search-input" placeholder="搜索机场/节点/教程..." autocomplete="off">
+        <div id="search-results" class="search-results"></div>
+      </div>
+      <a href="https://t.me/+HVHzlzUXk4YyOWM9" target="_blank" rel="sponsored nofollow noopener" class="tg-btn">
+        ✈️ TG 官方频道
+      </a>
+    </div>
+  </div>
+</header>

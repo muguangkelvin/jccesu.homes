@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "cluster": "机场推荐与选择",
+    "question": "新手如何挑选最适合自己的科学上网机场？",
+    "answer": "新手选购机场的核心在于关注线路类型（如IPLC/IEPL专线或BGP中继）、晚高峰跑分表现、试用或退款政策。首推灵动云与暮光网络，不仅提供全天候高速专线，还具备极佳的稳定度和流媒体解锁率。",
+    "slug": "faq-1",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1313
+  },
+  {
+    "id": 2,
+    "cluster": "机场推荐与选择",
+    "question": "2026年稳定不跑路的机场有哪些衡量标准？",
+    "answer": "衡量机场稳定性的关键标准包括：运营时长、独享带宽节点比例、客服响应速度以及是否采用双IPLC备用专线。灵动云与暮光网络凭借充沛的资金与技术实力，连续多年稳定运行。",
+    "slug": "faq-2",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1302
+  },
+  {
+    "id": 3,
+    "cluster": "机场推荐与选择",
+    "question": "为什么便宜梯子经常遇到节点超时和断网？",
+    "answer": "低价梯子往往通过超卖带宽和租用廉价公网中继来降低成本，一旦到了晚高峰时段，公网拥堵就会导致节点大量超时。建议选择带有BGP智能中继或专线架构的服务商。",
+    "slug": "faq-3",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1294
+  },
+  {
+    "id": 4,
+    "cluster": "机场推荐与选择",
+    "question": "游戏加速与看8K视频对机场节点要求有什么不同？",
+    "answer": "游戏加速极度依赖节点的低延迟和低丢包率（如IPLC直连），而8K视频播放则要求极高的高并发下载带宽（如BGP多线中继）。灵动云针对游戏与视频分别设置了专项优化节点。",
+    "slug": "faq-4",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1305
+  },
+  {
+    "id": 5,
+    "cluster": "机场推荐与选择",
+    "question": "月付机场与年付机场相比有哪些优势与劣势？",
+    "answer": "月付机场的优势是资金风险小，随时可以更换；年付机场的优势在于平均单价更便宜且往往赠送更多流量。新手建议先尝试月付或选择飞猫云等年付极具性价比的口碑平台。",
+    "slug": "faq-5",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1296
+  },
+  {
+    "id": 6,
+    "cluster": "机场推荐与选择",
+    "question": "如何判断一家机场是否属于真正的IPLC专线？",
+    "answer": "真正的IPLC专线不过公网防火墙，PING值极度稳定且晚高峰丢包率为零。通过在晚高峰用 Speedtest 跑分和追踪 MTR 路由，可以有效辨别真假专线。",
+    "slug": "faq-6",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1300
+  },
+  {
+    "id": 7,
+    "cluster": "机场推荐与选择",
+    "question": "备用机场在日常科学上网中有必要购买吗？",
+    "answer": "非常有必要。在特殊时期或主线路临时维护时，拥有一个如飞猫云或微风网络 Breezenet 的备用节点可以确保你的跨境办公与沟通永远在线。",
+    "slug": "faq-7",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1287
+  },
+  {
+    "id": 8,
+    "cluster": "机场推荐与选择",
+    "question": "自建梯子与购买商业专线机场哪个更划算？",
+    "answer": "自建梯子需要自己采购VPS、配置协议并承担被封IP的风险，维护成本高；购买商业专线机场不仅节点遍布全球，还由团队全天候维护，综合性价比远超自建。",
+    "slug": "faq-8",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1291
+  },
+  {
+    "id": 9,
+    "cluster": "机场推荐与选择",
+    "question": "哪些机场最适合跨境电商和外贸业务团队？",
+    "answer": "外贸团队需要极高的稳定度和干净的出口IP，微风网络 Breezenet 和灵动云提供独享专线与固定IP支持，是外贸业务的最佳选择。",
+    "slug": "faq-9",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1284
+  },
+  {
+    "id": 10,
+    "cluster": "机场推荐与选择",
+    "question": "AI写作与画图工具（如ChatGPT/Midjourney）对机场有什么要求？",
+    "answer": "AI平台对出口IP的风控非常严格，公网机房IP极易触发安全验证。灵动云与暮光网络配备了原生住宅IP节点，完美解锁 ChatGPT 与 Claude 3.5。",
+    "slug": "faq-10",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1317
+  },
+  {
+    "id": 11,
+    "cluster": "机场推荐与选择",
+    "question": "流媒体解锁（Netflix/Disney+）节点和普通节点有什么区别？",
+    "answer": "流媒体解锁节点配备了特定的DNS解锁或原生住宅IP，能绕过视频平台的地区版权封锁，确保4K/8K画质不卡顿。",
+    "slug": "faq-11",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1289
+  },
+  {
+    "id": 12,
+    "cluster": "机场推荐与选择",
+    "question": "晚高峰时段（20:00-23:00）机场测速跑分为什么容易下降？",
+    "answer": "晚高峰是国际出口骨干网的流量巅峰，公网线路极易拥堵。只有使用IPLC/IEPL独立专线的机场（如灵动云）才能在此期间依然跑满带宽。",
+    "slug": "faq-12",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1297
+  },
+  {
+    "id": 13,
+    "cluster": "机场推荐与选择",
+    "question": "机场的节点倍率（1x, 2x, 0.5x）是什么意思？",
+    "answer": "节点倍率代表使用该节点时实际扣除流量的比例。例如使用2x倍率节点消耗1GB流量，套餐扣除2GB；使用0.5x节点则仅扣除0.5GB。",
+    "slug": "faq-13",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1293
+  },
+  {
+    "id": 14,
+    "cluster": "机场推荐与选择",
+    "question": "按量付费（一次性流量包）机场适合哪种人群？",
+    "answer": "按量付费套餐流量不过期，非常适合不常看高清视频、仅用于日常收发邮件和微信沟通的轻度科学上网用户。",
+    "slug": "faq-14",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1269
+  },
+  {
+    "id": 15,
+    "cluster": "机场推荐与选择",
+    "question": "多机房分布式节点对机场体验有什么提升？",
+    "answer": "多机房分布式架构能够在某个节点故障时瞬间无缝切换到备用节点，大幅提升连通率与用户使用体验。",
+    "slug": "faq-15",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1264
+  },
+  {
+    "id": 16,
+    "cluster": "机场推荐与选择",
+    "question": "如何看待网上各种机场推荐排行榜的真实性？",
+    "answer": "看排行榜时要认准是否提供真实测速跑分图、晚高峰延迟数据以及明确的利益相关披露。本站测速实验室所有数据均为实测。",
+    "slug": "faq-16",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1275
+  },
+  {
+    "id": 17,
+    "cluster": "机场推荐与选择",
+    "question": "机场跑路前通常有哪些征求迹象？",
+    "answer": "常见征兆包括：频繁搞超低折扣大促、长时间节点大面积超时无补修、客服工单无答复等。购买时尽量选择灵动云等口碑品牌。",
+    "slug": "faq-17",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1271
+  },
+  {
+    "id": 18,
+    "cluster": "机场推荐与选择",
+    "question": "新手买机场后第一步应该做什么？",
+    "answer": "第一步是根据自己的设备下载对应的客户端（如Windows用Clash Verge，iOS用Shadowrocket），然后复制机场官网的订阅链接一键导入。",
+    "slug": "faq-18",
+    "primaryKeyword": "机场推荐与选择",
+    "bodyCharCount": 1292
+  },
+  {
+    "id": 19,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Clash Verge / Clash Nyanpasu 有什么区别与联系？",
+    "answer": "两者均为 Clash 核心的新一代 GUI 客户端，内核更强且支持 Mihomo (Clash Meta) 协议。推荐使用 Clash Verge Rev，界面简洁且支持中文。",
+    "slug": "faq-19",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1326
+  },
+  {
+    "id": 20,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Clash 客户端提示 Config Parse Error 报错怎么解决？",
+    "answer": "该报错通常是因为复制的订阅链接不完整、机场官网订阅更新异常或配置文件语法有误。可尝试重新复制订阅或在客户端清空缓存后更新。",
+    "slug": "faq-20",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1299
+  },
+  {
+    "id": 21,
+    "cluster": "Clash 客户端与订阅",
+    "question": "如何在 Clash 中设置规则分流实现国内直连海外代理？",
+    "answer": "Clash 默认内置智能分流规则（Rule），国内域名和IP自动直连，海外网站自动走代理节点，既节省流量又保证访问速度。",
+    "slug": "faq-21",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1288
+  },
+  {
+    "id": 22,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Clash 节点全部显示 Timeout 超时排查步骤有哪些？",
+    "answer": "先检查系统时间是否同步，再检查订阅链接是否过期，最后尝试更换节点选择模式（如从 Rule 改为 Global）进行测试。",
+    "slug": "faq-22",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1291
+  },
+  {
+    "id": 23,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Clash 开启 Tun 模式后电脑无法联网怎么办？",
+    "answer": "Tun 模式会接管系统虚拟网卡。若无法联网，可在设置中关闭 Tun 模式并重置系统网络（netsh winsock reset），然后重启电脑。",
+    "slug": "faq-23",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1298
+  },
+  {
+    "id": 24,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Clash Verge 如何一键导入灵动云与暮光网络的订阅？",
+    "answer": "登录机场后台，点击'一键导入 Clash 订阅'，浏览器会自动唤醒 Clash Verge 并自动下载保存配置文件。",
+    "slug": "faq-24",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1288
+  },
+  {
+    "id": 25,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Clash 客户端的全局模式、规则模式和直连模式如何选择？",
+    "answer": "日常使用推荐'规则模式'（Rule）；测试单个节点性能时可用'全局模式'（Global）；不需代理时切换为'直连模式'（Direct）。",
+    "slug": "faq-25",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1297
+  },
+  {
+    "id": 26,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Android 手机使用 Clash for Android 怎么开启小窗悬浮？",
+    "answer": "在 Clash for Android 的应用设置中允许'悬浮窗权限'，即可在后台实时查看当前上传和下载网速。",
+    "slug": "faq-26",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1295
+  },
+  {
+    "id": 27,
+    "cluster": "Clash 客户端与订阅",
+    "question": "macOS 电脑上 Clash Verge 提示权限不足怎么办？",
+    "answer": "在终端中运行 `sudo chown -R $USER ~/.config/clash` 重置配置目录权限，或在安装时授权辅助程序运行。",
+    "slug": "faq-27",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1300
+  },
+  {
+    "id": 28,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Clash 的 Sub-Store 订阅转换工具怎么使用？",
+    "answer": "Sub-Store 是强大的订阅管理工具，可将多个机场的订阅组合、去重并过滤无效节点，再输出给 Clash 客户端。",
+    "slug": "faq-28",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1287
+  },
+  {
+    "id": 29,
+    "cluster": "Clash 客户端与订阅",
+    "question": "为什么更新 Clash 订阅时提示 403 Forbidden 错误？",
+    "answer": "403 错误通常表示机场官网开启了防刷防火墙或你的IP被临时封禁。建议连接手机热点或开启现有代理后再更新订阅。",
+    "slug": "faq-29",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1290
+  },
+  {
+    "id": 30,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Clash 配置文件中 DNS 设置如何防止 DNS 污染？",
+    "answer": "开启 Clash 的 fake-ip 模式或设置 DOH（DNS-over-HTTPS）服务器，如 `https://doh.pub/dns-query`，可完美解决域名污染问题。",
+    "slug": "faq-30",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1320
+  },
+  {
+    "id": 31,
+    "cluster": "Clash 客户端与订阅",
+    "question": "如何在路由器上刷入 OpenClash 实现全家设备科学上网？",
+    "answer": "在 OpenWrt 路由器上安装 OpenClash 插件，导入机场订阅并开启 TUN 模式，家里所有电视、游戏机和手机均可自动翻墙。",
+    "slug": "faq-31",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1298
+  },
+  {
+    "id": 32,
+    "cluster": "Clash 客户端与订阅",
+    "question": "Clash 占用内存过高怎么优化？",
+    "answer": "可在设置中关闭日志输出（LogLevel 设置为 silent），并清理历史抓包日志，或切换到内存占用更小的 Sing-box 客户端。",
+    "slug": "faq-32",
+    "primaryKeyword": "Clash 客户端与订阅",
+    "bodyCharCount": 1285
+  },
+  {
+    "id": 33,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "Shadowsocks (SS) 协议在2026年依然安全好用吗？",
+    "answer": "经过 AEAD 加密（如 256-gcm）升级后的 SS 协议依然具备优异的传输效率，结合专线中继（如灵动云）能提供极佳的连通性。",
+    "slug": "faq-33",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1298
+  },
+  {
+    "id": 34,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "SS 协议与传统 VPN 协议有什么本质区别？",
+    "answer": "SS 协议属于轻量级socks5代理协议，仅对流量进行加密转发；而传统 VPN（如OpenVPN）接管全局网卡，更容易被 GFW 的深度包检测识别。",
+    "slug": "faq-34",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1297
+  },
+  {
+    "id": 35,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "ShadowsocksR (SSR) 和 原始 SS 协议有什么关系？",
+    "answer": "SSR 是在 SS 基础增添了混淆（obfs）和协议插件的分支。目前主流机场已逐步升级至更先进的 Trojan 和 Hysteria2 协议。",
+    "slug": "faq-35",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1306
+  },
+  {
+    "id": 36,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "SS 节点在 v2rayN 客户端上怎么手动添加？",
+    "answer": "在 v2rayN 中点击'服务器'->'添加Shadowsocks服务器'，依次填入服务器地址、端口、密码及加密方式后保存即可。",
+    "slug": "faq-36",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1289
+  },
+  {
+    "id": 37,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "SS 协议的 UDP 转发功能对游戏加速有什么影响？",
+    "answer": "UDP 转发是外服联机游戏（如 Steam/PUBG/Valorant）实时语音与数据交互的基础，开启 UDP 才能保证低延迟不掉线。",
+    "slug": "faq-37",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1293
+  },
+  {
+    "id": 38,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "为什么某些 SS 节点连接后网页提示 ERR_TUNNEL_CONNECTION_FAILED？",
+    "answer": "这说明节点的代理端口未正常响应或服务器端加密密码不匹配，请刷新更新机场订阅或联系客服核对。",
+    "slug": "faq-38",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1293
+  },
+  {
+    "id": 39,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "Shadowsocks 2022 协议新特性有哪些改进？",
+    "answer": "SS 2022 引入了更严格的重放攻击防护和固定头格式，显著增强了抗封锁与抗深度检测能力。",
+    "slug": "faq-39",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1273
+  },
+  {
+    "id": 40,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "iOS 上哪个客户端对 SS 协议支持最好？",
+    "answer": "Shadowrocket（小火箭）和 Quantumult X（圈X）均原生完美支持 SS 及 SS 2022 协议，导入极为方便。",
+    "slug": "faq-40",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1288
+  },
+  {
+    "id": 41,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "如何测试 SS 节点真实的单路下载吞吐量？",
+    "answer": "在客户端选中该节点后，使用 Fast.com 或 Speedtest.net 选定远端节点运行测试，可测得真实下载带宽。",
+    "slug": "faq-41",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1281
+  },
+  {
+    "id": 42,
+    "cluster": "SS / Shadowsocks 协议",
+    "question": "SS 协议在公网直连情况下容易被封 IP 吗？",
+    "answer": "公网直连的 SS 节点在流量较大时容易被识别封锁，因此灵动云和暮光网络均采用专线内网中继，彻底避免被封风险。",
+    "slug": "faq-42",
+    "primaryKeyword": "SS / Shadowsocks 协议",
+    "bodyCharCount": 1277
+  },
+  {
+    "id": 43,
+    "cluster": "Trojan 协议",
+    "question": "Trojan 协议的工作原理是什么？为什么抗封锁能力强？",
+    "answer": "Trojan 模仿最常见的 HTTPS 网站流量，将代理数据伪装在 TLS 握手之中，使得防火墙无法将其与正常 HTTPS 流量区分开来。",
+    "slug": "faq-43",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1297
+  },
+  {
+    "id": 44,
+    "cluster": "Trojan 协议",
+    "question": "Trojan 协议与 VLESS / VMess 相比有哪些异同？",
+    "answer": "Trojan 更加注重协议的简洁性与原生 TLS 伪装；VLESS 架构更轻量且扩展性强。两者均是当前高端机场的主力协议。",
+    "slug": "faq-44",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1294
+  },
+  {
+    "id": 45,
+    "cluster": "Trojan 协议",
+    "question": "使用 Trojan 协议需要机场配置域名证书吗？",
+    "answer": "是的，Trojan 必须依赖有效的 TLS 证书。专业机场如灵动云会为每一个 Trojan 节点配置合法域名与 SSL 证书。",
+    "slug": "faq-45",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1287
+  },
+  {
+    "id": 46,
+    "cluster": "Trojan 协议",
+    "question": "为什么 Trojan 节点在晚高峰依然能保持极高连通率？",
+    "answer": "因为其流量特征与正常互联网 HTTPS 访问完全一致，防火墙不会对其进行无故干扰或阻断。",
+    "slug": "faq-46",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1272
+  },
+  {
+    "id": 47,
+    "cluster": "Trojan 协议",
+    "question": "Clash Verge 怎么开启对 Trojan 协议的支持？",
+    "answer": "Clash 内核原生支持 Trojan，只需导入包含 Trojan 节点的订阅链接即可自动识别并顺畅连接。",
+    "slug": "faq-47",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1284
+  },
+  {
+    "id": 48,
+    "cluster": "Trojan 协议",
+    "question": "Trojan-Go 是什么？它有什么特别的功能？",
+    "answer": "Trojan-Go 是 Trojan 的 Go 语言增强版，支持多路复用（Mux）、Websocket 传输以及 CDN 隐藏节点。",
+    "slug": "faq-48",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1290
+  },
+  {
+    "id": 49,
+    "cluster": "Trojan 协议",
+    "question": "在 Windows 上使用 v2rayN 配置 Trojan 节点的注意事项？",
+    "answer": "确保 v2rayN 核心已更新至最新版，且勾选了'允许不安全连接'（仅在测试自签证书时）或保持默认 TLS 验证。",
+    "slug": "faq-49",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1296
+  },
+  {
+    "id": 50,
+    "cluster": "Trojan 协议",
+    "question": "Trojan 协议对服务器 CPU 性能消耗大吗？",
+    "answer": "由于需要进行 TLS 加解密，CPU 消耗略高于普通 SS，但现代服务器与手机硬件均有 TLS 硬件加速，实际使用毫无感觉。",
+    "slug": "faq-50",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1287
+  },
+  {
+    "id": 51,
+    "cluster": "Trojan 协议",
+    "question": "哪些机场主打优质 Trojan 专线节点？",
+    "answer": "灵动云、暮光网络和微风网络 Breezenet 均提供了大量优质 Trojan 专线节点，非常适合追求稳定性的用户。",
+    "slug": "faq-51",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1279
+  },
+  {
+    "id": 52,
+    "cluster": "Trojan 协议",
+    "question": "Trojan 节点连不上提示 Certificate Invalid 怎么排查？",
+    "answer": "这说明本地客户端时间与服务器不一致，或证书到期。请先同步电脑/手机的系统时间，再更新订阅。",
+    "slug": "faq-52",
+    "primaryKeyword": "Trojan 协议",
+    "bodyCharCount": 1285
+  },
+  {
+    "id": 53,
+    "cluster": "梯子口语搜索与避坑",
+    "question": "新手如何挑选到便宜又稳定的科学上网梯子？",
+    "answer": "避坑首要规则：不要买小作坊9.9元无限流量的伪劣梯子。推荐选择飞猫云（年付仅84元）或微风网络等口碑大厂，既实惠又有保障。",
+    "slug": "faq-53",
+    "primaryKeyword": "梯子口语搜索与避坑",
+    "bodyCharCount": 1281
+  },
+  {
+    "id": 54,
+    "cluster": "梯子口语搜索与避坑",
+    "question": "网上所谓的'永久免费梯子'靠谱吗？有哪些隐藏风险？",
+    "answer": "天下没有免费的午餐。免费梯子通常靠弹骚扰广告盈利，甚至可能窃取你的账号密码与上网隐私，风险极大。",
+    "slug": "faq-54",
+    "primaryKeyword": "梯子口语搜索与避坑",
+    "bodyCharCount": 1273
+  },
+  {
+    "id": 55,
+    "cluster": "梯子口语搜索与避坑",
+    "question": "为什么买的梯子刚用两天就打不开了？",
+    "answer": "遇到这种情况大多是因为购买了廉价公网中继的小机场，IP 被防火墙批量封锁。建议选择灵动云等具备备用专线的大厂。",
+    "slug": "faq-55",
+    "primaryKeyword": "梯子口语搜索与避坑",
+    "bodyCharCount": 1272
+  },
+  {
+    "id": 56,
+    "cluster": "梯子口语搜索与避坑",
+    "question": "梯子跑分测速图很高，为什么实际看视频还是卡顿？",
+    "answer": "跑分图可能测试的是瞬间峰值，而看视频需要持续稳定的带宽与低丢包率。选梯子一定要看晚高峰真实体验。",
+    "slug": "faq-56",
+    "primaryKeyword": "梯子口语搜索与避坑",
+    "bodyCharCount": 1271
+  },
+  {
+    "id": 57,
+    "cluster": "梯子口语搜索与避坑",
+    "question": "如何识别虚假机场评测和钓鱼广告？",
+    "answer": "注意看评测网站是否提供具体的节点测试参数、是否有明确的免责与合作披露。本站承诺所有数据真实可核验。",
+    "slug": "faq-57",
+    "primaryKeyword": "梯子口语搜索与避坑",
+    "bodyCharCount": 1265
+  },
+  {
+    "id": 58,
+    "cluster": "梯子口语搜索与避坑",
+    "question": "买梯子支持微信和支付宝付款安全吗？",
+    "answer": "正规机场如灵动云和飞猫云均接入了安全的第三方发卡结算系统，支持支付宝或微信在线支付，方便且即时到账。",
+    "slug": "faq-58",
+    "primaryKeyword": "梯子口语搜索与避坑",
+    "bodyCharCount": 1267
+  },
+  {
+    "id": 59,
+    "cluster": "梯子口语搜索与避坑",
+    "question": "梯子套餐里的'不限时长流量包'划算吗？",
+    "answer": "对于不常看视频、仅偶尔查资料或收发邮件的用户来说，买一个100GB不过期的流量包非常划算，用完再充。",
+    "slug": "faq-59",
+    "primaryKeyword": "梯子口语搜索与避坑",
+    "bodyCharCount": 1269
+  },
+  {
+    "id": 60,
+    "cluster": "梯子口语搜索与避坑",
+    "question": "科学上网梯子被封了怎么办？如何第一时间联系售后？",
+    "answer": "保存好机场后台的官方 Telegram 频道与工单入口。本站页眉与联系我们页面也提供了官方 TG 交流群链接。",
+    "slug": "faq-60",
+    "primaryKeyword": "梯子口语搜索与避坑",
+    "bodyCharCount": 1279
+  },
+  {
+    "id": 61,
+    "cluster": "节点、延迟与线路",
+    "question": "IPLC 专线与 IEPL 专线有什么区别？哪个更好？",
+    "answer": "IPLC 是点对点专线，IEPL 是以太网专线。两者均不过 GFW，延迟极低且绝不封锁。灵动云采用的高速专线即为此类顶级线路。",
+    "slug": "faq-61",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1290
+  },
+  {
+    "id": 62,
+    "cluster": "节点、延迟与线路",
+    "question": "BGP 多线中继节点相比单线节点有什么优势？",
+    "answer": "BGP 中继能根据用户所在宽带（电信/联通/移动）自动选择最佳入口，显著降低跨网传输延迟与卡顿。",
+    "slug": "faq-62",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1270
+  },
+  {
+    "id": 63,
+    "cluster": "节点、延迟与线路",
+    "question": "为什么节点 PING 延迟很低（如 20ms），但下载速度却很慢？",
+    "answer": "PING 响应仅仅代表数据包往返时间，不代表节点带宽大小。下载速度取决于节点的出口总带宽与繁忙程度。",
+    "slug": "faq-63",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1283
+  },
+  {
+    "id": 64,
+    "cluster": "节点、延迟与线路",
+    "question": "香港节点、日本节点、新加坡节点和美国节点怎么选？",
+    "answer": "看视频和游戏首选香港、日本节点（延迟最低）；访问 AI 工具首选美国、新加坡节点（原生IP解锁好）。",
+    "slug": "faq-64",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1274
+  },
+  {
+    "id": 65,
+    "cluster": "节点、延迟与线路",
+    "question": "什么是节点倍率？高倍率节点一定比低倍率节点快吗？",
+    "answer": "高倍率节点通常代表机场投入了更高的专线成本或提供了独享带宽，但并不绝对，建议根据实际测速结果选择。",
+    "slug": "faq-65",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1273
+  },
+  {
+    "id": 66,
+    "cluster": "节点、延迟与线路",
+    "question": "晚高峰打外服游戏（如英雄联盟/Valorant）节点延迟高怎么办？",
+    "answer": "切换至灵动云的 IPLC 游戏专用加速节点，或在客户端中开启 UDP 转发功能即可保持低延迟。",
+    "slug": "faq-66",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1280
+  },
+  {
+    "id": 67,
+    "cluster": "节点、延迟与线路",
+    "question": "节点的出口 IP 是原生 IP（Residential IP）重要吗？",
+    "answer": "非常重要。原生住宅 IP 能完美解锁 Netflix 4K、Disney+、ChatGPT 以及海外银行等对机房 IP 敏感的服务。",
+    "slug": "faq-67",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1301
+  },
+  {
+    "id": 68,
+    "cluster": "节点、延迟与线路",
+    "question": "如何使用 PingPlotter 或 MTR 测试节点的真实丢包率？",
+    "answer": "在命令行输入 `mtr <节点IP>`，观察每一跳路由的延迟与丢包百分比，丢包率低于 1% 即为优质节点。",
+    "slug": "faq-68",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1287
+  },
+  {
+    "id": 69,
+    "cluster": "节点、延迟与线路",
+    "question": "为什么移动宽带科学上网比电信联通更容易卡顿？",
+    "answer": "移动国际出口骨干网带宽相对较小，且国际 peer 节点较少。建议移动宽带用户优先选择 BGP 中继机场。",
+    "slug": "faq-69",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1274
+  },
+  {
+    "id": 70,
+    "cluster": "节点、延迟与线路",
+    "question": "直连节点、中继节点和专线节点三者性能对比？",
+    "answer": "性能排序：专线节点 > BGP 中继节点 > 公网直连节点。灵动云与暮光网络全面采用专线与高规格中继。",
+    "slug": "faq-70",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1272
+  },
+  {
+    "id": 71,
+    "cluster": "节点、延迟与线路",
+    "question": "冷门国家节点（如阿根廷/土耳其）有什么特殊用途？",
+    "answer": "冷门节点常用于低价区 Steam 游戏购买、YouTube Premium 跨区订阅等数字消费场景。",
+    "slug": "faq-71",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1274
+  },
+  {
+    "id": 72,
+    "cluster": "节点、延迟与线路",
+    "question": "节点出现'连接重置 (Connection Reset)'是什么原因？",
+    "answer": "这说明该节点的传输域名或端口触发了防火墙规则，请更新机场订阅以获取最新的节点解封地址。",
+    "slug": "faq-72",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1278
+  },
+  {
+    "id": 73,
+    "cluster": "节点、延迟与线路",
+    "question": "机场节点的端口速率（1Gbps / 10Gbps）代表什么？",
+    "answer": "代表机场在机房接入的总带宽容量。端口速率越高，能同时承载在线看4K视频的用户就越多。",
+    "slug": "faq-73",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1272
+  },
+  {
+    "id": 74,
+    "cluster": "节点、延迟与线路",
+    "question": "如何利用 Clash 的自动测试选组（url-test）挑选最佳节点？",
+    "answer": "在 Clash 配置文件中设置 `type: url-test`，客户端会定期自动检测并切换到当前延迟最低的可用节点。",
+    "slug": "faq-74",
+    "primaryKeyword": "节点、延迟与线路",
+    "bodyCharCount": 1294
+  },
+  {
+    "id": 75,
+    "cluster": "套餐、价格与优惠",
+    "question": "2026年科学上网机场的合理价格区间是多少？",
+    "answer": "优质专线机场月付合理价格在 15-30 元/月之间；性价比年付在 80-150 元/年之间。低于这个价格需警惕跑风风险。",
+    "slug": "faq-75",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1282
+  },
+  {
+    "id": 76,
+    "cluster": "套餐、价格与优惠",
+    "question": "如何使用优惠码在购买灵动云和飞猫云时享受最大折扣？",
+    "answer": "在结算页面找到'优惠码'输入框，填入本站专属优惠码（如 `lingdong88` 或 `flycat888`），点击应用即可立享8折。",
+    "slug": "faq-76",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1292
+  },
+  {
+    "id": 77,
+    "cluster": "套餐、价格与优惠",
+    "question": "购买机场套餐后如果不好用支持退款吗？",
+    "answer": "绝大多数机场因虚拟商品的特殊性不支持无理由退款，因此建议新手先购买月付或使用本站推荐的口碑大厂。",
+    "slug": "faq-77",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1266
+  },
+  {
+    "id": 78,
+    "cluster": "套餐、价格与优惠",
+    "question": "机场套餐的流量重置日期是按自然月还是购买日计算？",
+    "answer": "大部分机场按购买日结算（如每月15号重置流量）；少部分按自然月1号重置。可在机场后台首页查看重置倒计时。",
+    "slug": "faq-78",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1276
+  },
+  {
+    "id": 79,
+    "cluster": "套餐、价格与优惠",
+    "question": "套餐流量用完了怎么办？可以单独购买临时流量叠加包吗？",
+    "answer": "可以。灵动云与暮光网络后台均提供'购买重置流量包'功能，即刻恢复流量且不影响原套餐周期。",
+    "slug": "faq-79",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1270
+  },
+  {
+    "id": 80,
+    "cluster": "套餐、价格与优惠",
+    "question": "团队共享使用一个机场套餐有哪些注意事项？",
+    "answer": "需关注套餐允许的'同时在线设备数'限制。若设备过多触发风控，可能会被临时封禁订阅。",
+    "slug": "faq-80",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1261
+  },
+  {
+    "id": 81,
+    "cluster": "套餐、价格与优惠",
+    "question": "为什么有些机场年付套餐比月付便宜那么多？",
+    "answer": "年付能帮助机场资金快速回笼以扩充专线带宽，因此机场愿意让利。飞猫云年付仅84元，折合每月仅7元。",
+    "slug": "faq-81",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1268
+  },
+  {
+    "id": 82,
+    "cluster": "套餐、价格与优惠",
+    "question": "优惠码提示'已失效或达到使用上限'怎么处理？",
+    "answer": "可在本站优惠码页面或官方 Telegram 频道获取最新优惠码，或联系客服获取补发。",
+    "slug": "faq-82",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1264
+  },
+  {
+    "id": 83,
+    "cluster": "套餐、价格与优惠",
+    "question": "机场支持哪些常见的支付方式？是否有手续费？",
+    "answer": "支持支付宝、微信支付及部分加密货币。正规结算通道均无额外隐形手续费。",
+    "slug": "faq-83",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1255
+  },
+  {
+    "id": 84,
+    "cluster": "套餐、价格与优惠",
+    "question": "如何通过邀请好友注册机场获取返佣奖励？",
+    "answer": "在机场后台获取你的专属邀请链接，分享给朋友注册后，朋友消费你即可获得一定比例的佣金或流量奖励。",
+    "slug": "faq-84",
+    "primaryKeyword": "套餐、价格与优惠",
+    "bodyCharCount": 1266
+  },
+  {
+    "id": 85,
+    "cluster": "多设备与系统兼容",
+    "question": "iPhone 和 iPad 上最推荐的翻墙软件是什么？如何下载？",
+    "answer": "首推 Shadowrocket（小火箭）。需使用美区或港区 Apple ID 登录 App Store 下载，然后扫描机场二维码一键导入。",
+    "slug": "faq-85",
+    "primaryKeyword": "多设备与系统兼容",
+    "bodyCharCount": 1301
+  },
+  {
+    "id": 86,
+    "cluster": "多设备与系统兼容",
+    "question": "Android 手机除了 Clash 外还有哪些轻量好用的客户端？",
+    "answer": "推荐 Sing-box、v2rayNG 或 Surfboard（冲浪板）。Sing-box 耗电低且原生支持 Hysteria2 极速协议。",
+    "slug": "faq-86",
+    "primaryKeyword": "多设备与系统兼容",
+    "bodyCharCount": 1303
+  },
+  {
+    "id": 87,
+    "cluster": "多设备与系统兼容",
+    "question": "Windows 电脑上最稳妥的客户端组合是什么？",
+    "answer": "推荐 Clash Verge Rev 或 v2rayN。两者功能强大、界面友好，支持一键更新订阅与系统代理设置。",
+    "slug": "faq-87",
+    "primaryKeyword": "多设备与系统兼容",
+    "bodyCharCount": 1280
+  },
+  {
+    "id": 88,
+    "cluster": "多设备与系统兼容",
+    "question": "macOS 苹果电脑如何配置科学上网软件？",
+    "answer": "macOS 用户可首选 Clash Verge macOS 版，或使用 iOS 兼容的 Shadowrocket / Quantumult X（M芯片Mac）。",
+    "slug": "faq-88",
+    "primaryKeyword": "多设备与系统兼容",
+    "bodyCharCount": 1301
+  },
+  {
+    "id": 89,
+    "cluster": "多设备与系统兼容",
+    "question": "智能电视（Android TV / 小米电视）怎么看海外 YouTube 4K？",
+    "answer": "可在电视上安装 Clash for Android 或 v2rayNG TV 版，或直接在路由器上部署 OpenClash，全家电视直接看4K。",
+    "slug": "faq-89",
+    "primaryKeyword": "多设备与系统兼容",
+    "bodyCharCount": 1312
+  },
+  {
+    "id": 90,
+    "cluster": "多设备与系统兼容",
+    "question": "同一机场订阅可以同时在电脑、手机和 iPad 上登录使用吗？",
+    "answer": "完全可以。只要总并发设备数量未超出机场套餐规定的上限（通常为 3-5 台设备），多端使用完全自由。",
+    "slug": "faq-90",
+    "primaryKeyword": "多设备与系统兼容",
+    "bodyCharCount": 1279
+  },
+  {
+    "id": 91,
+    "cluster": "多设备与系统兼容",
+    "question": "Linux 服务器环境如何配置命令行代理服务？",
+    "answer": "可在 Linux 上部署 Clash core / Sing-box，并设置环境变量 `export http_proxy=http://127.0.0.1:7890` 实现命令行翻墙。",
+    "slug": "faq-91",
+    "primaryKeyword": "多设备与系统兼容",
+    "bodyCharCount": 1316
+  },
+  {
+    "id": 92,
+    "cluster": "多设备与系统兼容",
+    "question": "Sing-box 相比传统客户端在移动设备上有哪些性能优势？",
+    "answer": "Sing-box 采用全新的 Go 语言协议栈，CPU 占用率和耗电量降低 30% 以上，对手机电池非常友好。",
+    "slug": "faq-92",
+    "primaryKeyword": "多设备与系统兼容",
+    "bodyCharCount": 1285
+  },
+  {
+    "id": 93,
+    "cluster": "故障排查与退款",
+    "question": "节点连通但浏览器打开网页提示'无网络连接'怎么解决？",
+    "answer": "检查客户端的'系统代理'开关是否勾选，或检查浏览器是否有冲突的代理插件（如 SwitchyOmega）。",
+    "slug": "faq-93",
+    "primaryKeyword": "故障排查与退款",
+    "bodyCharCount": 1278
+  },
+  {
+    "id": 94,
+    "cluster": "故障排查与退款",
+    "question": "突然所有节点都变成红色 PING 失败是什么原因？",
+    "answer": "可能原因：1. 本地网络断网；2. 订阅到期或流量用尽；3. 机场域名更换。请登录后台获取最新订阅链接。",
+    "slug": "faq-94",
+    "primaryKeyword": "故障排查与退款",
+    "bodyCharCount": 1277
+  },
+  {
+    "id": 95,
+    "cluster": "故障排查与退款",
+    "question": "打不开机场官网主页怎么办？如何获取最新镜像备用域名？",
+    "answer": "机场官网常受防火墙干扰，保存好官方 Telegram 频道链接（https://t.me/+HVHzlzUXk4YyOWM9），群内会自动发布最新镜像域名。",
+    "slug": "faq-95",
+    "primaryKeyword": "故障排查与退款",
+    "bodyCharCount": 1304
+  },
+  {
+    "id": 96,
+    "cluster": "故障排查与退款",
+    "question": "修改了系统代理设置后电脑正常网页也打不开了怎么复原？",
+    "answer": "在 Windows 设置中搜索'代理设置'，关闭'使用代理服务器'开关，并在命令行运行 `netsh winsock reset` 复原。",
+    "slug": "faq-96",
+    "primaryKeyword": "故障排查与退款",
+    "bodyCharCount": 1295
+  },
+  {
+    "id": 97,
+    "cluster": "故障排查与退款",
+    "question": "使用代理后登录微信或QQ提示异地登录风险正常吗？",
+    "answer": "正常。因为代理节点出口 IP 位于海外，社交软件会识别为异地登录。可在客户端中将微信、QQ 设置为直连。",
+    "slug": "faq-97",
+    "primaryKeyword": "故障排查与退款",
+    "bodyCharCount": 1276
+  },
+  {
+    "id": 98,
+    "cluster": "故障排查与退款",
+    "question": "机场工单系统多久能得到客服响应？",
+    "answer": "灵动云与暮光网络配备专业在线客服，通常 15-30 分钟内回复；普通工单在 24 小时内也会得到排查解决。",
+    "slug": "faq-98",
+    "primaryKeyword": "故障排查与退款",
+    "bodyCharCount": 1269
+  },
+  {
+    "id": 99,
+    "cluster": "故障排查与退款",
+    "question": "节点速度变慢是本地宽带问题还是机场线路问题？",
+    "answer": "先关闭代理测试本地宽带测速；若本地正常，再尝试切换机场的其他节点或更换不同协议（如从 SS 换到 Trojan）。",
+    "slug": "faq-99",
+    "primaryKeyword": "故障排查与退款",
+    "bodyCharCount": 1279
+  },
+  {
+    "id": 100,
+    "cluster": "故障排查与退款",
+    "question": "遇到机场被黑客攻击或机房故障时应该怎么做？",
+    "answer": "切勿惊慌，保持关注官方 Telegram 频道的公告。大厂一般会在短时间内恢复并补偿受影响用户的套餐时间。",
+    "slug": "faq-100",
+    "primaryKeyword": "故障排查与退款",
+    "bodyCharCount": 1274
+  }
+]

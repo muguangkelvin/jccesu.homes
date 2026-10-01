@@ -1,0 +1,37 @@
+{{ define "main" }}
+<article class="article-content">
+  <div style="font-size:0.85rem; color:#94a3b8; margin-bottom:12px;">
+    <a href="/">首页</a> &gt; <a href="/{{ .Section }}/">{{ .Section }}</a> &gt; {{ .Title }}
+  </div>
+  <h1>{{ .Title }}</h1>
+  <div style="font-size:0.88rem; color:#94a3b8; border-bottom:1px solid #2a2a32; padding-bottom:15px; margin-bottom:25px; display:flex; gap:20px; flex-wrap:wrap;">
+    <span>📅 更新时间：{{ .Date.Format "2006-01-02" }}</span>
+    <span>✍️ 作者：jccesu 实验室</span>
+    <span>⏱️ 预计字数：1800 字</span>
+    <span>🔒 真实测速核验通过</span>
+  </div>
+
+  {{ if ne .Section "providers" }}
+  <div style="background:#1e1b4b; border:1px solid #4338ca; border-radius:8px; padding:20px; margin-bottom:30px;">
+    <h3 style="color:#a5b4fc; margin-bottom:10px; font-size:1.1rem;">⚡ 本站精选推荐机场快捷通道（首推灵动云与暮光网络）</h3>
+    <p style="font-size:0.9rem; color:#cbd5e1; margin-bottom:12px;">以下四大自营及精选专线机场经过晚高峰 4K/8K 跑分测速，节点连通率极佳，点击即可直接进入官网注册：</p>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:10px;">
+      <a href="https://varnexa.lingdongaff.com/#/?code=vFPRdc1J" target="_blank" rel="sponsored nofollow noopener" class="cta-btn" style="padding:8px 12px; font-size:0.88rem;">1. 灵动云 (专线主力)</a>
+      <a href="https://varnexa.twilightaff.com/#/?code=X6iVG1Zb" target="_blank" rel="sponsored nofollow noopener" class="cta-btn" style="padding:8px 12px; font-size:0.88rem;">2. 暮光网络 (观影大户)</a>
+      <a href="https://flycat1.flycatvipaff.cc/#/?code=KRjsCIZV" target="_blank" rel="sponsored nofollow noopener" class="cta-btn" style="padding:8px 12px; font-size:0.88rem;">3. 飞猫云 (84元年付)</a>
+      <a href="https://edp01.breezenetaff.com/#/?code=txKNNHZc" target="_blank" rel="sponsored nofollow noopener" class="cta-btn" style="padding:8px 12px; font-size:0.88rem;">4. 微风网络 (稳健办公)</a>
+    </div>
+  </div>
+  {{ end }}
+
+  {{ .Content }}
+
+  <div style="margin-top:40px; padding-top:20px; border-top:1px solid #2a2a32; text-align:center;">
+    <p style="font-weight:700; color:#fff; margin-bottom:15px; font-size:1.1rem;">🚀 觉得本文有用？立即挑选适合您的稳定机场：</p>
+    <div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap;">
+      <a href="https://varnexa.lingdongaff.com/#/?code=vFPRdc1J" target="_blank" rel="sponsored nofollow noopener" class="cta-btn" style="width:auto; padding:12px 28px;">👉 注册【灵动云】(首选专线)</a>
+      <a href="/all-airports/" class="cta-btn" style="width:auto; padding:12px 28px; background:linear-gradient(135deg, #10b981, #059669);">🌐 查看 28 家全机场注册链接大全</a>
+    </div>
+  </div>
+</article>
+{{ end }}

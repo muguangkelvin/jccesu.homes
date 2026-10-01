@@ -1,0 +1,116 @@
+{
+  "profileVersion": "2026.1.0",
+  "siteTopic": "面向新手小白的机场测速与梯子选购评测指南",
+  "domain": "https://jccesu.homes",
+  "title": "jccesu 机场测速实验室 - 2026稳定机场推荐与极速梯子测速指南（附全平台客户端教程）",
+  "brandName": "jccesu 机场测速实验室",
+  "telegramChannel": "https://t.me/+HVHzlzUXk4YyOWM9",
+  "primaryKeywords": [
+    "机场测速",
+    "机场推荐",
+    "梯子推荐",
+    "魔法上网",
+    "魔法机场"
+  ],
+  "secondaryKeywords": [
+    "科学上网节点",
+    "4K流畅机场",
+    "晚高峰不卡顿梯子",
+    "IPLC专线机场",
+    "翻墙机场跑分",
+    "便宜稳定梯子",
+    "游戏加速节点",
+    "翻墙软件下载"
+  ],
+  "longTailKeywords": [
+    "2026晚高峰测速跑分排名",
+    "Clash Verge 新手订阅导入教程",
+    "Sing-box 极速节点配置指南",
+    "v2rayN 无法连接报错排查",
+    "Shadowrocket 小火箭节点导入与规则分流",
+    "IPLC与IEPL专线节点对比测试",
+    "奈飞Disney+全解锁4K节点推荐",
+    "低延迟外服游戏加速机场推荐",
+    "防跑路便宜稳定梯子选购避坑",
+    "免费与付费机场节点性能差距测速"
+  ],
+  "heroKeywords": [
+    "2026高速稳定机场测速",
+    "全平台翻墙客户端极速上手",
+    "晚高峰8K秒开节点实测",
+    "机场推荐",
+    "梯子推荐",
+    "魔法上网",
+    "IPLC专线",
+    "性价比梯子"
+  ],
+  "footerKeywords": [
+    "jccesu.homes 节点真实测速实验室",
+    "新手科学上网避坑指南",
+    "自营专线转化与服务支持",
+    "机场跑分排行榜",
+    "稳定梯子评测",
+    "客户端下载"
+  ],
+  "navigationItems": [
+    {
+      "label": "测速评测室",
+      "url": "/speed-test/",
+      "type": "content",
+      "isContentSection": true,
+      "articleCount": 15,
+      "primaryKeyword": "机场测速"
+    },
+    {
+      "label": "小白推荐榜",
+      "url": "/recommendations/",
+      "type": "commercial",
+      "isCommercial": true,
+      "articleCount": 20,
+      "primaryKeyword": "机场推荐"
+    },
+    {
+      "label": "客户端教程",
+      "url": "/tutorials/",
+      "type": "content",
+      "isContentSection": true,
+      "articleCount": 20,
+      "primaryKeyword": "Clash教程"
+    },
+    {
+      "label": "线路知识库",
+      "url": "/knowledge/",
+      "type": "content",
+      "isContentSection": true,
+      "articleCount": 15,
+      "primaryKeyword": "IPLC专线"
+    },
+    {
+      "label": "常见疑问答疑",
+      "url": "/faq/",
+      "type": "faq",
+      "isContentSection": true,
+      "articleCount": 30,
+      "primaryKeyword": "魔法上网常见问题"
+    },
+    {
+      "label": "全机场注册大全",
+      "url": "/all-airports/",
+      "type": "commercial",
+      "isCommercial": true,
+      "articleCount": 1,
+      "primaryKeyword": "全机场注册链接"
+    }
+  ],
+  "protectedBrandTerms": [
+    "灵动云",
+    "暮光网络",
+    "飞猫云",
+    "微风网络",
+    "隐形人",
+    "浪网 WaveNet",
+    "梯子云 LadderCloud",
+    "飞V"
+  ],
+  "sourceUpdatedAt": "2026-09-30"
+}

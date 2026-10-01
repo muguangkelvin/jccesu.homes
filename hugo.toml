@@ -1,0 +1,21 @@
+baseURL = 'https://jccesu.homes/'
+languageCode = 'zh-CN'
+title = 'jccesu 机场测速实验室 - 2026稳定机场推荐与极速梯子测速指南（附全平台客户端教程）'
+theme = []
+
+[params]
+  brandName = "jccesu 机场测速实验室"
+  description = "面向新手小白的机场测速与梯子选购评测指南。聚焦真实测速跑分、节点延迟对比、晚高峰流媒体4K/8K解锁表现，提供主流客户端安装配置教程与避坑指南。"
+  telegramChannel = "https://t.me/+HVHzlzUXk4YyOWM9"
+
+[outputFormats.JSON]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+  unsafe = true
